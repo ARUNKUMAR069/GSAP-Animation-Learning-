@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#page1{
+    background-color: slateblue;
+    height: 100%;
+    width: 100%;
+}
+#page2{
+    background-color: plum;
+    height: 100%;
+    width: 100%;
+    padding: 10vw 0px;
+    
+}
+#page2 h1{
+   text-transform: uppercase;
+   font-weight: 400;
+    font-size: 20vw;
+}
+
+
+#page3{
+    background-color: teal;
+    height: 100%;
+    width: 100%;
+}
+
