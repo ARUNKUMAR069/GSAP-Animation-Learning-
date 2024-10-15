@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+#page1,#page2,#page3{
+    height: 100vh;
+    width: 100%;
+}
+#move{background-color: #D9FF06;
+    display: flex;
+    padding: 2vw 0;
+}
+.marque svg{
+    height: 60px;
+     
+}
+.marque{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    /* background-color: red; */
+    transform: translateX(-100%);
+
+}
+.marque h1{
+    font-size: 50px;
+    font-family: "Signika", sans-serif;
+    color: black;
+}
