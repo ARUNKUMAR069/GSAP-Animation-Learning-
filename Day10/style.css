@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 35px;
+    
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navleft h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.navleft svg{
+    height: 40px;
+    rotate: 135deg;
+
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+    gap: 0px 40px
+}
+
+.navrightlinks{
+  
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+ 
+}
+
+
+.navright-btn button{
+    padding: 10px 20px;
+    border:1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.layout1{
+    display: flex;
+    padding: 0px 35px;
+    
+    background-color: red;
+}
+
+.layout1left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65vh;
+   
+}
+
+.layout1right{
+    width: 50%;
+    height: 65vh;
+    
+}
+
+.layout1left h1 span{
+    font-size: 40px;
+    font-weight: 600;
+    color: #1F1F1F;
+    display: block;
+    margin-bottom: 10px;
+}
+.layout1left p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #6E6E6E;
+    width: 50%;
+    margin: 20px 0px;
+
+}
+.layout1left button{
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 30%;
+    cursor: pointer;
+    background-color: #1F1F1F;
+}
+
+.companylogo{
+    display: flex;
+width: 100vw;
+   padding: 10px 35px;
+   
+
+}
+.companylogo div{
+width:16.6666666667%;
+height: 100%;
+display: flex;
+align-items: center;
+}
+.companylogo img{
+    filter: grayscale(100%);
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
